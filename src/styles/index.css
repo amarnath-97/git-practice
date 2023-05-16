@@ -1,0 +1,25 @@
+@import url("reset.css");
+
+
+ :root {
+    --primarycolor : rgb(28, 194, 159)
+ }
+.main_header  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 10vh;
+}
+
+
+.login {
+     color: var(--primarycolor);
+}
+
+.signup {
+    background-color: var(--primarycolor);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
